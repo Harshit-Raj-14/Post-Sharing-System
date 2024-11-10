@@ -1,0 +1,119 @@
+/* Center the entire app on the page */
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.App {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Post container */
+.post {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+/* Add line between posts */
+.post + .post {
+  border-top: 1px solid #ddd;
+}
+
+/* Text area and buttons in the PostForm */
+form textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Comments section */
+.comment-section {
+  margin-top: 15px;
+  padding-left: 15px;
+  border-left: 2px solid #eee;
+}
+
+.comment {
+  background-color: #fafafa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.comment p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.comment .replies {
+  padding-left: 15px;
+  border-left: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.comment button {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.comment button:hover {
+  text-decoration: underline;
+}
+
+.reply {
+  background-color: #f8f9fa;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
