@@ -4,6 +4,22 @@
 
 **Deployed Link -** https://post-sharing-system-dz3m.vercel.app/
 
+# Running project
+**BACKENED PART**
+> cd post-system-backend
+> 
+> npm install
+> 
+> node index.js
+
+**FRONTENT PART**
+> cd post-system-frontend
+> 
+> npm install
+> 
+> npm start
+
+
 ## Porject Images
 ![Screenshot 2024-11-10 at 15-23-51 React App](https://github.com/user-attachments/assets/0bf57e30-d33d-493a-8399-47a656afa8b2)
 ## Connected to MongoDB Atlas
